@@ -1,4 +1,4 @@
-# API REST para Gestión de Ventas en Tienda/Bazar
+# API REST para Gestión de Ventas de una Tienda/Bazar
 
 Este proyecto tiene como objetivo desarrollar una API robusta utilizando Spring Boot para optimizar la gestión de ventas y el control de inventario en una tienda/bazar que ha experimentado un significativo aumento en sus ventas. La solución propuesta busca superar las dificultades asociadas al registro manual de transacciones y la gestión de stock mediante la automatización de estas tareas.
 
