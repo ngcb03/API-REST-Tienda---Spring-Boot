@@ -36,11 +36,11 @@ El código fuente de la API se encuentra disponible en el siguiente repositorio 
 3. Poder realizar un CRUD completo de ventas:
    a. Métodos HTTP: GET, POST, DELETE, PUT
    b. Endpoints:
-      Creación: localhost:8080/ventas/crear
-      Lista completa de ventas realizadas: localhost:8080/ventas
-      Traer una venta en particular: localhost:8080/ventas/{codigo_venta}
-      Eliminación: localhost:8080/clientes/eliminar/{codigo_venta}
-      Edición: localhost:8080/clientes/editar/{codigo_venta}
+      - Creación: localhost:8080/ventas/crear
+      - Lista completa de ventas realizadas: localhost:8080/ventas
+      - Traer una venta en particular: localhost:8080/ventas/{codigo_venta}
+      - Eliminación: localhost:8080/clientes/eliminar/{codigo_venta}
+      - Edición: localhost:8080/clientes/editar/{codigo_venta}
 
 
 Nota: Igualmente se implemento la funcionalidad de actualizar el stock de productos y 
@@ -50,23 +50,23 @@ comprobación de si hay productos disponibles para bloquear nuevos registros
 4. Obtener todos los productos cuya cantidad_disponible sea menor a 5.
    a. Métodos HTTP: GET.
    b. Endpoint:
-      localhost:8080/productos/falta_stock
+      - localhost:8080/productos/falta_stock
 
 5. Obtener la lista de productos de una determinada venta.
    a. Métodos HTTP: GET.
    b. Endpoint:
-      localhost:8080/ventas/productos/{codigo_venta}
+      - localhost:8080/ventas/productos/{codigo_venta}
 
 6. Obtener la sumatoria del monto y también cantidad total de ventas de un determinado día:
    a. Métodos HTTP: GET.
    b. Endpoint:
-      localhost:8080/ventas/{fecha_venta}
+      - localhost:8080/ventas/{fecha_venta}
 
 7. Obtener el codigo_venta, el total, la cantidad de productos, el nombre del cliente y el
 apellido del cliente de la venta con el monto más alto de todas.
    a. Métodos HTTP: GET
    b. Endpoint:
-      localhost:8080/ventas/mayor_venta
+      - localhost:8080/ventas/mayor_venta
    
    Se implementó patrón DTO para este escenario
 
